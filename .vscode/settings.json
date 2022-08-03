@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "cctype": "cpp",
+        "charconv": "cpp",
+        "bitset": "cpp",
+        "ostream": "cpp"
+    }
+}

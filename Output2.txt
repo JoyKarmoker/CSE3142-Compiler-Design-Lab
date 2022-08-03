@@ -1,0 +1,4 @@
+Words Started with Vowels are : is of Engineering 
+Words Started with Constants are : Munmun the student Computer Science &  
+Total Vowels are 18, and they are: u u i e u e o o u e i e e E i e e i 
+Total Constants are 29, and they are: M n m n s t h s t d n t f C m p t r S c n c E n g n r n g 

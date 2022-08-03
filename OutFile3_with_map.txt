@@ -1,0 +1,11 @@
+MATH3141: Invalid Code
+CSE-3141:  Computer Science & Engineering Compiler Design Theory
+EEE-3111:  Electrical & Electronics Engineering System Analysis and Design
+CSE-3222:  Computer Science & Engineering Computer Graphics Lab
+MSE-3122:  Material Science & Engineering Database Management System Lab
+EEE-1141: Invalid Code
+MATH-3142:  Math Compiler Design Lab
+ICE-4141: Invalid Code
+MSE-2141: Invalid Code
+MATH-3141:  Math Compiler Design Theory
+MSE-21345: Invalid Code

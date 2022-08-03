@@ -1,0 +1,8 @@
+CSE-3141:  Computer Science & Engineering 3rd Year 1st Semester Compiler Design Theory
+EEE-1141:  Electrical & Electronics Engineering 1st Year 1st Semester Compiler Design Theory
+ICE-4141:  Information & Comunication Engineering 4th Year 1st Semester Compiler Design Theory
+MSE-2141:  Material Science & Engineering 2nd Year 1st Semesterr Compiler Design Theory
+MSE-21345: Invalid Code
+MATH3141: Invalid Code
+CSE-3143: Invalid Code
+EEE-1142:  Electrical & Electronics Engineering 1st Year 1st Semester Compiler Design Lab
