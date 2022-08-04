@@ -1,0 +1,6 @@
+a: Float Variable
+121: Invalid
+zas: Float Variable
+z23: Float Variable
+z./: Invalid
+jas: Invalid

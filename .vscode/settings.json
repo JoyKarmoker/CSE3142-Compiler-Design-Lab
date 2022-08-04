@@ -8,5 +8,6 @@
         "charconv": "cpp",
         "bitset": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "editor.wordWrap": "on"
 }

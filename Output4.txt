@@ -1,0 +1,25 @@
+01: Invalid
+ia3242: Integer Variable
+i: Integer Variable
+i1A45&: Invalid
+82490384jfsla: Invalid
+1: ShortInt Number
+0: Invalid
+10: ShortInt Number
+11: ShortInt Number
+101: ShortInt Number
+1000: ShortInt Number
+1001: ShortInt Number
+1010: ShortInt Number
+1011: ShortInt Number
+0101: Invalid
+0000: Invalid
+a012: Invalid
+-08fsdjl: Invalid
+.&76766: Invalid
+111111111: LongInt Number
+10032420394: LongInt Number
+1028304874298: LongInt Number
+12edrfdsfs: Invalid
+i876gjhgg9088: Integer Variable
+josdfsuf: Integer Variable
