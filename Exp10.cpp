@@ -10,7 +10,7 @@ map<string, string> rules =
 
 };
 
-// C++ template to print vector container elements
+//C++ template to print vector container elements
 template <typename T>
 ostream& operator<<(ostream& os, const vector<T>& v)
 {

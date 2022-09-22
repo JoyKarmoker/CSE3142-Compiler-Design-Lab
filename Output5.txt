@@ -4,3 +4,16 @@ zas: Float Variable
 z23: Float Variable
 z./: Invalid
 jas: Invalid
+0.12: Float Number
+0.1: Invalid
+000.000: Invalid
+1087.09: Float Number
+10.567: Invalid
+1a.67j: Invalid
+0.093248209: Double Number
+10.1a: Invalid
+11.1: Invalid
+00.0: Invalid
+0.780897: Double Number
+0.787: Double Number
+1.872: Double Number
