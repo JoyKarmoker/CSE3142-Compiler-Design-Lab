@@ -7,7 +7,7 @@ int totalWords = 0;
 ifstream MyReadFile("Input1.txt");
 ofstream OutFile("Output1.txt");
 
-void removeDupWord(string str)
+void separateWords(string str)
 {
     string word = "";
     int letters;
@@ -131,7 +131,7 @@ int main()
 
     while (getline (MyReadFile, str)) 
     {
-        removeDupWord(str);
+        separateWords(str);
         OutFile << "Total Words are: " << totalWords << ", and they are listed below: "<< endl;
 
         for(auto word: words)

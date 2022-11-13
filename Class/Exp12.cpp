@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
-    string expression = "123a";
+    string expression = "((2)+((3))*(5))";
     string input = expression;
     string grammar = "EAE";
     string stac= "";
+    int bracket = 0;
     int len = expression.length();
     string ch;
     bool isDigitCountinue = false;
@@ -15,13 +16,34 @@ int main()
     while(expression != "")
     {
         ch = expression[0];
-        if(ch >= "0" && ch<="9")
+
+        if(ch == "(")
+        {
+            if(isDigitCountinue)
+            {
+                cout << input << ": Bracket Invalid" << endl;
+                return 0;
+            }
+            bracket = bracket + 1;
+        }
+
+        else if(ch == ")")
+        {
+            if(isPreviousArithmatic)
+            {
+                cout << input << ": Bracket Invalid" << endl;
+                return 0;
+            }
+            bracket = bracket - 1;
+        }
+
+        else if(ch >= "0" && ch<="9")
         {
             isPreviousArithmatic = false;
             isDigitCountinue = true;
         }
 
-        else if (ch == "+" || ch == "-" || ch == "*" || ch == "/")
+        else if ((ch == "+" || ch == "-" || ch == "*" || ch == "/"))
         {
             if(isPreviousArithmatic)
             {
@@ -56,7 +78,7 @@ int main()
         stac = stac + "E";
     }
 
-    if((stac == "EAE") || (stac == "E"))
+    if(((stac == "EAE") || (stac == "E")) && (bracket == 0))
     {
         //printf("%s: VALID\n", expression);
 
@@ -65,7 +87,7 @@ int main()
 
     else
     {
-        cout << input << ": INVALID" << endl;
+        cout << input << ": Last INVALID" << endl;
     }
     
     return 0;

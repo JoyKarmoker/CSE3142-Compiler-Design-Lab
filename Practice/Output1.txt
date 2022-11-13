@@ -1,0 +1,17 @@
+Total words are 5 and they are listed below
+Md.
+Tareq
+Zaman,
+part-3,
+2011
+Total Letters are: 16 and they are: M d T a r e q Z a m a n p a r t 
+Total Digits are: 5 and they are: 3 2 0 1 1 
+Total Other Characters are: 4 and they are: . , - , 
+
+Total words are 2 and they are listed below
+Md.
+Harun
+Total Letters are: 7 and they are: M d H a r u n 
+Total Digits are: 0 and they are: 
+Total Other Characters are: 1 and they are: . 
+

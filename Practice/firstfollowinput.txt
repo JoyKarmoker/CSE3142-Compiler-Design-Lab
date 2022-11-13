@@ -1,0 +1,9 @@
+8
+S->TA
+A->+TA
+A->e
+T->VB
+B->*VB
+B->e
+V->(S)
+V->i
