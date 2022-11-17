@@ -20,7 +20,7 @@ void syntaxtree(string ex)
     for(int i=0; i<exlength; i++)
     {
 
-        
+      
         if(isOp(ex[i]))
         {
             tree[row][col] = ex[i];
