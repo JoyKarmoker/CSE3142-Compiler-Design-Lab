@@ -1,0 +1,18 @@
+Grammar is : 
+E->E+E
+E->E*E
+E->a
+Shift reduce parsing:
+
+	  Stack		Input	Action
+         $    a+a+a$	Shift a
+        $E    a+a+a$	Reduce E->a
+        $E     +a+a$	Shift +
+       $E+      a+a$	Shift a
+      $E+E      a+a$	Reduce E->a
+        $E      a+a$	Reduce E->E+E
+        $E       +a$	Shift +
+       $E+        a$	Shift a
+      $E+E        a$	Reduce E->a
+        $E        a$	Reduce E->E+E
+        $E         $	accept
